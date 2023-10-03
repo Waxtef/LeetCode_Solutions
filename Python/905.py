@@ -6,6 +6,7 @@ nums = [2, 1, 3, 4, 4, 6, 7]
 
 
 def sortArrayByParity(nums):
+    # This sort the even numbers to the from
     sorted_nums = sorted(nums, key=lambda x: x % 2 != 0)
     return sorted_nums
 
